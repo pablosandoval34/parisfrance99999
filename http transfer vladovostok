@@ -1,0 +1,17 @@
+<!-- Header end from basicPageHeader.tpl -->
+
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Property" resource="http://schema.org/url">
+  <!-- no external mappings noted for this term. -->
+
+<!-- webapp will assemble the rest elsewhere -->
+<!-- Will need at least:  </div></body></html> -->
+<!-- end of genericTermPageHeader.tpl -->
+  
+<h1 property="rdfs:label" class="page-title">url</h1>
+ <span class="canonicalUrl">Canonical URL: <a href="http://schema.org/url">http://schema.org/url</a></span> 
+<link  property="sameAs" href="https://schema.org/url" /><h4><span class='breadcrumbs'><a   href="/Thing">Thing</a> &gt; <a title="Defined in extension: meta.schema.org"   href="https://meta.schema.org/Property">Property</a> &gt; <a   href="/url">url</a></span>
+</h4>
+ <div property="rdfs:comment">No comment</div>
+
+
+ <br/><div>Usage: Over 1,000,000 domains</div>

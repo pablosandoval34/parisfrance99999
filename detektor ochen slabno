@@ -1,0 +1,18 @@
+<div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="138660776" data-scoped-search-url="/pablosandoval34/southkorea/search" data-unscoped-search-url="/search" action="/pablosandoval34/southkorea/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search or jump to…"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=yafBGcPItcbF/UVDUGh6xjVtmF8iI4dknvr+Llx9RwEfP357RsN/XNEGjkKGpg/DyqyxTiTHwAqdo8foGT0vLA=="
+          spellcheck="false"
+          autocomplete="off"
+          

@@ -1,0 +1,34 @@
+<pre>
+   none, off        Never make backups (even if --backup is given) 
+   numbered, t      Make numbered backups 
+   existing, nil    Numbered if numbered backups exist, simple otherwise 
+   simple, never    Always make simple backups</pre>
+<p>  It is an error if the last argument is not a directory and more
+  than two files are given.  Without <span class="code">-f</span> or <span class="code">-i</span>, <span class="code">ln</span> will not remove an existing file.  Use the <span class="code">--backup</span> option to
+  make <span class="code">ln</span> rename existing files.<br>
+  <br>
+  A "hard link" is another name for an existing file; the link and the
+  original are indistinguishable.  Technically speaking, they share the
+  same inode, and the inode contains all the information about a
+  file--indeed, it is not incorrect to say that the inode _is_ the file.<br>
+  On all existing implementations, you cannot make a hard link to a
+  directory, and hard links cannot cross filesystem boundaries.  (These
+  restrictions are not mandated by POSIX, however.)<br>
+  <br>
+"Symbolic links" ("symlinks" for short), on the other hand, are a
+  special file type (which not all kernels support: System V release 3
+  (and older) systems lack symlinks) in which the link file actually
+  refers to a different file, by name.  When most operations (opening,
+  reading, writing, and so on) are passed the symbolic link file, the
+  kernel automatically "dereferences" the link and operates on the target
+  of the link.  But some operations (e.g., removing) work on the link
+file itself, rather than on its target.</p>
+<p><b>Examples</b></p>
+<pre>$ ln file1.txt link1
+$ rm file1.txt          #The file cannot be deleted until the link is removed.
+ 
+$ ln -s /some/name            # create a link ./name pointing to /some/name
+$ ln -s /some/name mylink2    # or give the link a name
+
+$ ln -s /home/simon/demo /home/jules/mylink3   #Create mylink3 pointing to demo
+

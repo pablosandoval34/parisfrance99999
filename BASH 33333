@@ -1,0 +1,27 @@
+ for (; optind < argc; ++optind)
+    {
+      if (set_security_context)
+        defaultcon (argv[optind], S_IFIFO);
+      if (mkfifo (argv[optind], newmode) != 0)
+        {
+          error (0, errno, _("cannot create fifo %s"), quoteaf (argv[optind]));
+          exit_status = EXIT_FAILURE;
+        }
+      else if (specified_mode && lchmod (argv[optind], newmode) != 0)
+        {
+          error (0, errno, _("cannot set permissions of %s"),
+                 quoteaf (argv[optind]));
+          exit_status = EXIT_FAILURE;
+        }
+    }
+
+  return exit_status;
+}
+for (; optind < argc; ++optind)
+  {
+     if (set_security_context)
+        defaultcon (argv[optind], S_IFIFO);
+        Migranti</option><option value="missioni" >Missioni</option><option value="
+        missioni-migrazioni-e-terzo-mondo" >Missioni, Migrazioni e Terzo Mondo</option>
+        <option value="musica" >Musica</option><option value="natale" >
+        Natale</option><option value="omelie" >Omelie</o

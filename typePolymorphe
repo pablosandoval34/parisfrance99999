@@ -1,0 +1,12 @@
+"First argument: {0}, second one: {1}".format(47,11) 
+
+"Second argument: {1}, first one: {0}".format(47,11) 
+
+"Second argument: {1:3d}, first one: {0:7.2f}".format(47.42,11) 
+
+"First argument: {}, second one: {}".format(47,11) 
+>>> # arguments can be used more than once:
+ 
+"various precisions: {0:6.2f} or {0:6.3f}".format(1.4148) 
+
+ 
